@@ -1,5 +1,5 @@
 # Learning to Remember Patterns: Pattern Matching Memory Networks for Traffic Forecasting
-This is a PyTorch implementation of the paper: Learning to Remember Patterns: Pattern Matching Memory Networks for Traffic Forecasting.
+This is a PyTorch implementation of the paper: Hyunwook Lee, Seungmin Jin, Hyeshin Chu, Hongkyu Lim, Sungahn Ko, Learning to Remember Patterns: Pattern Matching Memory Networks for Traffic Forecasting, ICLR 2022.
 ## Requirements
 python3
 The detailed requirements are posted in requirements.txt 
