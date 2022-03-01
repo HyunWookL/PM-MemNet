@@ -2,7 +2,12 @@
 This is a PyTorch implementation of the paper: Hyunwook Lee, Seungmin Jin, Hyeshin Chu, Hongkyu Lim, Sungahn Ko, Learning to Remember Patterns: Pattern Matching Memory Networks for Traffic Forecasting, ICLR 2022.
 ## Requirements
 python3
-The detailed requirements are posted in requirements.txt 
+scipy>=0.19.0
+numpy
+pandas
+pyyaml
+torch>=1.9.0
+
 ## Data Preparation
 
 ### Download Datasets
