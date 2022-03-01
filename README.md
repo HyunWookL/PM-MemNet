@@ -11,8 +11,8 @@ torch>=1.9.0
 ## Data Preparation
 
 ### Download Datasets
-The traffic data files for NAVER-Seoul is posted on Google Drive.
-The other datasets, including METR-LA, can be found in Google Drive or Baidu Yun links provided by Li et al.
+The traffic data files for NAVER-Seoul is posted on [Google Drive](https://drive.google.com/drive/folders/1HjpDu7EjBKvA2e7WrsyPZGFEJL5PhzeG).
+The other datasets, including METR-LA, can be found in [Google Drive](https://drive.google.com/open?id=10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX) or [Baidu Yun](https://pan.baidu.com/s/14Yy9isAIZYdU__OYEQGa_g) links provided by [Li et al.](https://github.com/liyaguang/DCRNN).
 
 ### Process Datasets
 In the data processing stage, We have same process as Li et al.
