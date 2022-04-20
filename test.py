@@ -30,10 +30,9 @@ def main():
     key_dict = torch.from_numpy(key_dict).float().view(key_dict.shape[0], -1).to(device)
     num_nodes = config['num_nodes']
     engine = trainer(scaler, num_nodes, key_dict, supports, config['hops'], args.device, seq_length = config['seq_length'], embedding_dim = config['embedding_dim'])
-    if args.load_path is not None:
-        print("Load Path is detected. Load pretrained model...")
-        engine.model.load_state_dict(torch.load(args.load_path))
-        start_epoch = int(args.load_path.split('epoch_')[-1].split('_')[0]) + 1
+    assert args.load_path is not None
+    print("Load Path is detected. Load pretrained model...")
+    engine.model.load_state_dict(torch.load(args.load_path))
     print('num of parameters: {}'.format(count_parameters(engine.model)))
 
     engine.model.eval()
