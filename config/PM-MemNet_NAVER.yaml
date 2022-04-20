@@ -1,0 +1,16 @@
+seq_length: 18
+batch_size: 32
+embedding_dim: 64
+dataset_dir: data/NAVER_Seoul
+prior: data/NAVER_prior.npy
+adjfile: data/NAVER_Seoul/adj_mx.pkl
+num_nodes: 774
+hops: 3
+epochs: 100
+lr: 0.001
+wd: 0.0001
+steps:
+ - 20
+ - 30
+ - 40
+ - 50

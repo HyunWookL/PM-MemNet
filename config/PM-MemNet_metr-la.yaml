@@ -1,0 +1,14 @@
+seq_length: 18
+batch_size: 64
+embedding_dim: 128
+dataset_dir: data/METR-LA
+prior: data/METR-LA_prior.npy
+adjfile: data/METR-LA/adj_mx.pkl
+num_nodes: 207
+hops: 3
+epochs: 100
+lr: 0.001
+wd: 0.0001
+steps:
+ - 50
+ - 60
